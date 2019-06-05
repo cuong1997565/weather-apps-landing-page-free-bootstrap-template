@@ -546,3 +546,105 @@ Screen01 Section style
     left:0;
     top:0;
 }
+.ma-top-100{
+    margin-top: 100px;
+}
+
+.download_app {
+    margin-left: -10px;
+}
+
+
+/* .download_item img.app_right {
+    position: relative;
+    bottom: -60px;
+} */
+
+.download_app{
+    margin-left:-10px;
+}
+.download_app a{
+    margin-left:10px;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.download_item h5 {
+    line-height: 1.5rem;
+    width: 70%;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+.m-top-30 {
+    margin-top: 30px;
+}
+
+
+/*Scroll Up*/
+.scrollup {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 1000;
+    transition: opacity .5s, background-color .5s;
+}
+
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+}
+
+.scrollup:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+/*
+Footer Section style
+=====================*/
+nav.navbar.bootsnav.footer-menu{
+    background-color: transparent;
+    border-bottom: 0px;
+}
+nav.navbar.bootsnav.footer-menu ul li a{
+    color:#b5b5c8;
+}
+nav.navbar.bootsnav.footer-menu ul li a:hover{
+    color:#fff;
+}
+.divider{
+    width:100%;
+    height: 1px;
+    background-color: #434769;
+    display: inline-block;
+}
+.main_footer{
+    overflow: hidden;
+}
+
+.main_footer i {
+    padding: 0px 5px;
+    color: #ff0000;
+}
+.bg-black {
+    background-color: #353854;
+}
